@@ -105,7 +105,7 @@ if __name__ == "__main__":
         writer.add_scalar("loss", loss.item(), iter_no)
         writer.add_scalar("reward mean", rewardMean, iter_no)
         print("%d: loss=%.3f, reward_mean=%.1f" % (iter_no, loss.item(), rewardMean))
-        if rewardMean > 199:
+        if rewardMean > 499:
             print("Solved")
             break
     
