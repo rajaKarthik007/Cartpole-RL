@@ -13,7 +13,9 @@ LEARNING_RATE = 0.01
 BATCHSIZE = 16
 PERCENTILE = 70
 
-device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else 
+                      "mps" if torch.backends.mps.is_available() else 
+                      "cpu")
 print(f"Running on {device}")
 
 class Policy(nn.Module):

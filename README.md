@@ -1,4 +1,4 @@
-# Cartpole-RL: Solving the Cartpole Problem with Reinforcement Learning
+# Cartpole-RL: Solving the Cartpole Problem with RL Algorithms
 
 This repository contains implementations of various **Reinforcement Learning (RL) algorithms** to solve the **CartPole-v1** environment from OpenAI Gym. The primary method used here is the **Cross-Entropy Method (CEM)**.
 
